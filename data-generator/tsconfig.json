@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",                  // Compila a ES6
+    "module": "CommonJS",             // Utiliza commonjs para la compatibilidad con Node.js
+    "esModuleInterop": true,          // Habilita la interoperabilidad de módulos ES6 con CommonJS
+    "allowSyntheticDefaultImports": true, // Permite importaciones por defecto de módulos sin un export por defecto
+    "moduleResolution": "node",       // Usa la resolución de módulos de Node.js
+    "outDir": "./dist",               // Directorio de salida para los archivos compilados
+    "strict": true,                   // Habilita todas las opciones estrictas
+    "skipLibCheck": true              // Omite la comprobación de tipos para todas las declaraciones en archivos .d.ts
+  },
+  "include": ["src/**/*"],            // Incluye los archivos TypeScript del directorio src y subdirectorios
+  "exclude": ["node_modules"]         // Excluye la carpeta node_modules
+}
