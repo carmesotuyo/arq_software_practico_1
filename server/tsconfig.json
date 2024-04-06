@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es6",               // Puedes usar "es5" si necesitas soporte para navegadores más antiguos
+    "module": "CommonJS",          // Para Node.js, "CommonJS" es la opción típica, pero para ES6 debería ser "ES6" o "ESNext"
+    "esModuleInterop": true,       // Habilita la interoperabilidad de módulos ES6 con CommonJS
+    "moduleResolution": "node",    // Utiliza la resolución de módulos de Node.js
+    "outDir": "./dist",            // Directorio de salida para los archivos compilados
+    "rootDir": "./src",            // Directorio raíz que contiene todos tus archivos TypeScript
+    "strict": true,                // Habilita todas las opciones estrictas de tipo
+    "noImplicitAny": true,         // Genera un error en expresiones y declaraciones con un tipo 'any' implícito
+    "strictNullChecks": true       // Activa las comprobaciones estrictas de nulidad
+  },
+  "include": ["src/**/*"],         // Incluye todos los archivos TypeScript del directorio 'src' y subdirectorios
+  "exclude": ["node_modules"]  
+}
