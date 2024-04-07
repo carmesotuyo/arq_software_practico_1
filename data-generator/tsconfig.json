@@ -9,6 +9,6 @@
     "strict": true,                   // Habilita todas las opciones estrictas
     "skipLibCheck": true              // Omite la comprobación de tipos para todas las declaraciones en archivos .d.ts
   },
-  "include": ["src/**/*"],            // Incluye los archivos TypeScript del directorio src y subdirectorios
+  "include": ["src/**/*", "index.ts"],            // Incluye los archivos TypeScript del directorio src y subdirectorios
   "exclude": ["node_modules"]         // Excluye la carpeta node_modules
 }

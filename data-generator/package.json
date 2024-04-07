@@ -5,7 +5,7 @@
   "main": "index.js",  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-data": "npx ts-node src/sendData.ts"
+    "start": "npx ts-node src/sendData.ts"
   },
   "keywords": [],
   "author": "",
