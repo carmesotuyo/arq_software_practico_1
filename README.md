@@ -10,7 +10,8 @@ Ejercicio de práctica del patrón Pipes & Filters, con un componente generador 
 
 ## Arquitectura
 
-[PEGAR CAPTURA DE DIAGRAMA ACA]
+<img width="712" alt="Screenshot 2024-04-07 at 20 02 38" src="https://github.com/carmesotuyo/arq_software_practico_1/assets/101828758/dd297932-b20c-4a8b-82b0-2d708a8605ce">
+
 
 ## Cómo ejecutar
 
