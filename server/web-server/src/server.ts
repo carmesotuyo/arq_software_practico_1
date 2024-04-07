@@ -1,16 +1,17 @@
 import express, { Express, Request, Response } from 'express';
-import { CustomData } from './data-structure/CustomData';
+const { EventEmitter } = require('events');
 
 const app: Express = express();
 const port: number = 3000;
 
-export let data: CustomData = { words: [] };
+export const dataEmitter = new EventEmitter();
 
 app.use(express.json());
 
 app.post('/words', (req: Request, res: Response) => {
   console.log('Received data:', req.body);
-  data = req.body;
+  const data = req.body;
+  dataEmitter.emit('newData', data);
   res.status(201).send({ message: 'Words created successfully', data: req.body });
 });
 
