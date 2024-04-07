@@ -1,0 +1,23 @@
+{
+  "name": "data-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/sendData.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20.11.28",
+    "axios": "^1.6.8",
+    "faker": "^5.5.3",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/faker": "^6.6.9"
+  }
+}
